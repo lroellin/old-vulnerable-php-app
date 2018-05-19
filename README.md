@@ -22,7 +22,7 @@ If you want to audit user related stuff, there's are two users registered.
 
 ## Shutdown/Reset
 
-Simply run `docker-compose down
+Simply run `docker-compose down`
 
 # Don't judge
 
