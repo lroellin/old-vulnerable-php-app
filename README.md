@@ -6,7 +6,16 @@ This is a PHP app that I wrote ca. 2013.
 
 Please do read the stuff after these instructions, but I know some people will skip it anyway
 
-If you want to audit user related stuff, there's are two users registered
+The only requirement is an installed **Docker**.
+
+To run:
+
+1. `docker-compuse up -d`
+2. Wait some time (few seconds)
+3. Try http://localhost/1234
+4. If it says there's a PDO timeout, wait some more...
+
+If you want to audit user related stuff, there's are two users registered.
 
 * Administrator: User `admin`, PW `adminadmin`
 * Normal user (for convenience, just the same as registering one): User `user`, PW `useruser`
