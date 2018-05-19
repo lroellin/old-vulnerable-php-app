@@ -12,7 +12,7 @@ To run:
 
 1. `docker-compuse up -d`
 2. Wait some time (few seconds)
-3. Try http://localhost/1234
+3. Try http://localhost:1234
 4. If it says there's a PDO timeout, wait some more...
 
 If you want to audit user related stuff, there's are two users registered.
