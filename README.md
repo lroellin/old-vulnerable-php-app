@@ -14,6 +14,7 @@ To run:
 2. Wait some time (few seconds)
 3. Try http://localhost:1234
 4. If it says there's a PDO timeout, wait some more...
+5. It it doesn't come up within some time, run it without the daemon parameter (`docker-compuse up`) and you will see the output
 
 If you want to audit user related stuff, there's are two users registered.
 
@@ -48,12 +49,13 @@ The code is uploaded as-is. The only parts I changed:
 * Remove my (old) email address from the db dump
 * Rewrote .htaccess (RewriteRules were not part of the backup)
 * Moved `<!DOCTYPE html>` to a lower line in `template_upper.php` don't know how that ever worked (headers already sent-problem)
+* Fixed some code that was written before I used Enums. Don't think this ever worked afterwards ;)
 * Dockerize it
 
 
 Yes, the DB password and the admin user password (hashed) are in the code as-is. I've never used them anywhere else, and since this is what it was like, I won't change it ;)
 
-Note that some stuff is, unfortunately, in German. That only includes stuff that's visible to the users, all the code is written in English. I even think that you can guess what is there, based on where it is visually is on the page, like the "Anmelden" (login) and "Registrieren" (register) part in the top-right.
+Note that some stuff is, unfortunately, in German. That only includes stuff that's visible to the users (except 1 or 2 places), all the code is written in English. I even think that you can guess what is there, based on where it is visually is on the page, like the "Anmelden" (login) and "Registrieren" (register) buttons in the top-right.
 
 # Known issues
 
@@ -75,7 +77,10 @@ Don't expect for me to fix any issue or merge this though ;) The code should sta
 
 * Direct db connections. There were iptable rules that didn't allow a db connection from the outside
 * Technically, there was a webmin installation available and you could probably take over the system just with that. However, that is also out of scope, since that would be too easy
-* SSH connections were possible, but were only allowed with a certificate## What is it probably vulnerable to?
+* SSH connections were possible, but were only allowed with a certificate
+* Generally, the way the Docker container is set up is the way it was set up on the production server
+
+## What is it probably vulnerable to?
 
 I paid no attention to:
 
