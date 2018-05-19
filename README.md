@@ -20,6 +20,10 @@ If you want to audit user related stuff, there's are two users registered.
 * Administrator: User `admin`, PW `adminadmin`
 * Normal user (for convenience, just the same as registering one): User `user`, PW `useruser`
 
+## Shutdown/Reset
+
+Simply run `docker-compose down
+
 # Don't judge
 
 If anyone comes across this code, don't think this is how I'd structure a program today ;)
