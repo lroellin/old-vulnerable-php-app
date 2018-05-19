@@ -39,6 +39,7 @@ Note that some stuff is, unfortunately, in German. That only includes stuff that
 * The `mac-lookup` utility doesn't know many modern MAC address vendors. Choosing the placeholder value works though.
 * The `unixtime` converter utility doesn't calculate properly, but that's frontend code anyway...
 * The `alarm` utility has some frontend issues too ;)
+* There's a `passwords_vendor` table that was supposed to be a repo of default passwords for network device vendors. However, I never got past entering some sample data and never did a UI for it.
 
 # Auditing
 
