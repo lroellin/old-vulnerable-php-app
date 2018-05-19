@@ -1,6 +1,15 @@
 # old-vulnerable-php-app
 
-This is a PHP app that I wrote ca. 2013. 
+This is a PHP app that I wrote ca. 2013.
+
+# How to run it
+
+Please do read the stuff after these instructions, but I know some people will skip it anyway
+
+If you want to audit user related stuff, there's are two users registered
+
+* Administrator: User `admin`, PW `adminadmin`
+* Normal user (for convenience, just the same as registering one): User `user`, PW `useruser`
 
 # Don't judge
 
