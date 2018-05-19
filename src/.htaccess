@@ -1,0 +1,40 @@
+RewriteEngine on
+
+RewriteRule ^/?$ pages/index.php
+
+RewriteRule ^about/?$ pages/about.php
+RewriteRule ^about/imprint/?$ pages/imprint.php
+
+RewriteRule ^it/software/?$ pages/it/software.php
+RewriteRule ^it/systems/?$ pages/it/systems.php
+
+RewriteRule ^apps/dell-converter/?$ pages/apps/dell-converter/get.php
+RewriteRule ^apps/ip/?$ pages/apps/ip/get.php
+RewriteRule ^apps/gallery/?$ pages/apps/gallery/get.php
+RewriteRule ^apps/mac-lookup/?$ pages/apps/mac-lookup/get.php
+RewriteRule ^apps/shuffle/?$ pages/apps/shuffle/get.php
+RewriteRule ^apps/generate-password/?$ pages/apps/generate-password/get.php
+RewriteRule ^apps/port-lookup/?$ pages/apps/port-lookup/get.php
+RewriteRule ^apps/unixtime/?$ pages/apps/unixtime/get.php
+RewriteRule ^apps/encrypt-decrypt/?$ pages/apps/encrypt-decrypt/get.php
+RewriteRule ^apps/webpage-down/?$ pages/apps/webpage-down/read.php
+RewriteRule ^apps/webpage-down/get/?$ pages/apps/webpage-down/get.php
+RewriteRule ^apps/alarm/?$ pages/apps/alarm/set.php
+
+RewriteRule ^games/pairs/new/?$ pages/games/pairs/new.php
+RewriteRule ^games/pairs/play/?$ pages/games/pairs/play.php
+
+RewriteRule ^mgmt/user/?$ pages/mgmt/user.php
+RewriteRule ^mgmt/gallery-read/?$ pages/mgmt/gallery-read.php
+RewriteRule ^mgmt/gallery-upload/?$ pages/mgmt/gallery-upload.php
+
+RewriteRule ^user/change-credentials/?$ pages/user/change-credentials.php
+RewriteRule ^user/change-profile/?$ pages/user/change-profile.php
+RewriteRule ^user/changing-credentials/?$ pages/user/changing-credentials.php
+RewriteRule ^user/changing-profile/?$ pages/user/changing-profile.php
+RewriteRule ^user/logging-in/?$ pages/user/logging-in.php
+RewriteRule ^user/login/?$ pages/user/login.php
+RewriteRule ^user/logoff/?$ pages/user/logoff.php
+RewriteRule ^user/profile/?$ pages/user/profile.php
+RewriteRule ^user/register/?$ pages/user/register.php
+RewriteRule ^user/registering/?$ pages/user/registering.php

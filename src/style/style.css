@@ -1,0 +1,54 @@
+body
+{
+	font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron-own
+{
+	background: none;
+}
+
+.img-center
+{
+	margin: 0 auto;
+}
+
+.inline
+{
+	display:inline;
+}
+
+.padding-none
+{
+	padding: 0px;
+}
+
+.margin-none
+{
+
+	margin: 0px;
+}
+
+@font-face {
+	font-family: 'Digital 7 Mono';
+	src: url('/media/fonts/digital-7-mono.ttf');
+}
+
+.clock
+{
+	font-family: "Digital 7 Mono";
+}
+
+.clock-display
+{
+	font-size: 30pt;
+}
+
+.highlight
+{
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+}
