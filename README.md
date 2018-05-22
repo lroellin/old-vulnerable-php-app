@@ -49,7 +49,7 @@ The code is uploaded as-is. The only parts I changed:
 * Remove my (old) email address from the db dump
 * Replaced them with pre-configured credentials (see above) 
 * Rewrote .htaccess (RewriteRules were not part of the backup)
-* Moved `<!DOCTYPE html>` to a lower line in `template_upper.php` don't know how that ever worked (headers already sent-problem)
+* Moved `<!DOCTYPE html>` to a lower line in `template_upper.php`, don't know how that ever worked (headers already sent-problem)
 * Fixed some code that was written before I used Enums. Don't think this ever worked afterwards ;)
 * Dockerize it
 
@@ -60,7 +60,7 @@ Note that some stuff is, unfortunately, in German. That only includes stuff that
 
 # Known issues
 
-* The `ip` displays an error when starting, since it tries to display stuff about your IP. However, since you're connecting via a private IP, it filters it out.
+* The `ip` utility displays an error when starting, since it tries to display stuff about your IP. However, since you're connecting via a private IP, it filters it out.
 * The `mac-lookup` utility doesn't know many modern MAC address vendors. Choosing the placeholder value works though.
 * The `unixtime` converter utility doesn't calculate properly, but that's frontend code anyway...
 * The `alarm` utility has some frontend issues too ;)
