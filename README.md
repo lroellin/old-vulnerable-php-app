@@ -47,13 +47,14 @@ The code is uploaded as-is. The only parts I changed:
 
 * Remove a user from the db (yes, one colleague even registered)
 * Remove my (old) email address from the db dump
+* Replaced them with pre-configured credentials (see above) 
 * Rewrote .htaccess (RewriteRules were not part of the backup)
 * Moved `<!DOCTYPE html>` to a lower line in `template_upper.php` don't know how that ever worked (headers already sent-problem)
 * Fixed some code that was written before I used Enums. Don't think this ever worked afterwards ;)
 * Dockerize it
 
 
-Yes, the DB password and the admin user password (hashed) are in the code as-is. I've never used them anywhere else, and since this is what it was like, I won't change it ;)
+
 
 Note that some stuff is, unfortunately, in German. That only includes stuff that's visible to the users (except 1 or 2 places), all the code is written in English. I even think that you can guess what is there, based on where it is visually is on the page, like the "Anmelden" (login) and "Registrieren" (register) buttons in the top-right.
 
