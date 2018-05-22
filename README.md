@@ -18,7 +18,7 @@ To run:
 
 If you want to audit user related stuff, there's are two users registered.
 
-* Administrator: User `admin`, PW `adminadmin`
+* Administrator: User `admin`, PW `adminadmin`. Treat it as secure credentials you could have only obtained through social engineering
 * Normal user (for convenience, just the same as registering one): User `user`, PW `useruser`
 
 ## Shutdown/Reset
