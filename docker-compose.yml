@@ -1,7 +1,7 @@
 version: '3'
 services:
     app:
-      image: lroellin/old-vulnerable-php-app
+      build: .
       ports:
       - 1234:80
       depends_on:
