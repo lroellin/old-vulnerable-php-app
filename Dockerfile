@@ -1,5 +1,5 @@
 FROM php:5.6-apache
-RUN apt-get update && apt-get install -y git zlib1g-dev fortune libpng-dev \
+RUN apt-get update && apt-get install -y --no-install-recommends git zlib1g-dev fortune libpng-dev \
     && rm -rf /var/lib/apt/lists/* \
     && docker-php-ext-install pdo pdo_mysql gd \
     && pecl install SPL_Types-0.4.0 \
