@@ -14,7 +14,7 @@ To run:
 2. Wait some time (few seconds)
 3. Try http://localhost:1234
 4. If it says there's a PDO timeout, wait some more...
-5. It it doesn't come up within some time, run it without the daemon parameter (`docker-compuse up`) and you will see the output
+5. It it doesn't come up within some time, run it without the daemon parameter (`docker-compose up`) and you will see the output
 
 If you want to audit user related stuff, there's are two users registered.
 
